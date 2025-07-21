@@ -17,7 +17,19 @@ A verilog implementation of RISC-V based processor. coming soon
 
 ## RTL Design
   ### Project Structure
-  
+  ```
+  RISC-V Project/
+  ├── top.v
+  ├── RTLdesign/
+  │   ├── alu.v
+  │   ├── reg_file.v
+  │   ├── data_memory.v
+  │   ├── inst_memory.v
+  │   ├── control_unit.v
+  │   ├── ...
+  ├── definitions.vh
+  ├── synth.ys
+```
    #### Verilog Code
 
    #### Testbench
