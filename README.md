@@ -1,5 +1,8 @@
 # RISC-V
-A verilog implementation of RISC-V based processor. coming soon
+## Overview
+A verilog implementation of Single Cycle RISC-V based processor. 
+
+This implementation follows a classic single-cycle datapath, where each instruction is fully executed in one clock cycle. This serves as a foundational project for understanding core computer architecture concepts before advancing to more complex pipelined designs.
 
 ## Significance
 
