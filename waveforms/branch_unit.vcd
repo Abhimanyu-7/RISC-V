@@ -1,0 +1,103 @@
+$date
+	Fri Jul 18 16:58:57 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module branch_unit_tb $end
+$var wire 1 ! o_take $end
+$var reg 1 " clk $end
+$var reg 32 # i_a [31:0] $end
+$var reg 32 $ i_b [31:0] $end
+$var reg 1 % i_branch $end
+$var reg 3 & i_branch_op [2:0] $end
+$scope module dut $end
+$var wire 32 ' i_a [31:0] $end
+$var wire 32 ( i_b [31:0] $end
+$var wire 1 % i_branch $end
+$var wire 3 ) i_branch_op [2:0] $end
+$var reg 1 ! o_take $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 )
+b0 (
+b0 '
+b0 &
+1%
+b0 $
+b0 #
+0"
+1!
+$end
+#5
+1"
+#10
+0!
+0"
+b1 &
+b1 )
+#15
+1"
+#20
+1!
+0"
+b1 $
+b1 (
+#25
+1"
+#30
+0!
+0"
+b100 &
+b100 )
+b10001000100010001000100010000 $
+b10001000100010001000100010000 (
+b10001000100010001000100010001 #
+b10001000100010001000100010001 '
+#35
+1"
+#40
+1!
+0"
+b101 &
+b101 )
+#45
+1"
+#50
+0!
+0"
+b110 &
+b110 )
+#55
+1"
+#60
+1!
+0"
+b111 &
+b111 )
+#65
+1"
+#70
+1!
+0"
+b10 &
+b10 )
+#75
+1"
+#80
+0!
+0"
+0%
+#85
+1"
+#90
+0"
