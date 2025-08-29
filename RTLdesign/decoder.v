@@ -124,12 +124,6 @@ module decoder (
                     default: o_alu_op = `OP_ALU_NOP;
                 endcase
             end
-            `OP_FENCE: begin  // Fence
-                // Implement fence instruction
-            end
-            `OP_SYSTEM: begin  // System Instructions
-                // Implement ECALL, EBREAK, etc.
-            end
             default: begin
                 // Handle unrecognized opcodes
             end
